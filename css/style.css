@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+/*   / useded and import statement into CSS to eliminate global interferance in the HTML  */
+body{
+  /*this allowed the placement of the Roboto on body of HTML enviornment */
+
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  position: relative;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+img {
+	max-width: 200px;
+}
+
+    /*Header Navigation*/
+header .navbar {
+  padding: 30px 0;
+}
+
+header .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+header .navbar-default .navbar-nav a {
+  color: white;
+  padding: 5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #EEC856;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 700;
+  color: #EEC856;
+  background: transparent;
+  border-bottom: 4px solid #EEC856;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+  color: #E15D5F;
+  background: transparent;
+  text-shadow: none;
+}
+
+header .navbar-brand h5 {
+  color: white;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 400;
+  padding-left: 50px;
+}
+
+    /* Footer Navigation  */
+
+footer .navbar-default {
+  background: transparent;
+}
+
+  /*    Page -- all pages     */
+.page {
+  padding: 50px 0;
+}
+
+.page h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/**  Page -- Mission **/
+#history{
+  backgrbackground-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+  border-top: 20px solid rgba(238, 200, 86, .5);
+}
+
+@media only screen
+and (min-width: 450px)
+and (max-width: 768px) {
+  .service p {
+    padding: 0 20%;
+  }
+}
+
+     /*Pictures*/
+.pic {
+  max-width: 300px;
+  height: 200px;
+}
+.pic2 {
+  max-width: 300px;
+  height: 400px;
+}
+.pic3 {
+  max-width: 250px;
+  height: 150px;
+}
+.pic4 {
+  width: 1534px;
+  height: 575px;
+  overflow: scroll;
+}
